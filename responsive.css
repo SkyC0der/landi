@@ -1,0 +1,81 @@
+
+@media (max-width: 800px){
+
+#root > .header-container{
+    display: grid;
+    overflow: none;
+    grid-row: 1fr 1fr 1fr ;
+
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+.header-links > ul {
+    display: flex;
+    padding: 2rem 0;
+    flex-direction: column;
+}
+.img > .group > #group {
+    margin-left: -2rem;
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    left: 60%;
+}
+#root >.images> .content h1{
+    font-size: 2rem;
+}
+#root > #footer{
+    margin-top: -11rem;
+}
+.center > .center-content{
+    width: 100%;
+    margin-top: -10em;
+}
+.center > .center-content > .path-box img{
+    position: absolute;
+    left: -30%;
+    top: 10%
+    ;
+}
+.containing > .right img{
+    width: 20%;
+}
+
+
+}
+
+@media (max-width: 1000px){
+    .center > .center-content > .path-box img{
+        position: absolute;
+        left: -40%;
+        top: 80%
+        ;
+    }
+    #root > .images > .img > .path{
+        position: absolute;
+        left: 0rem;
+        top: -3%;
+        left: 10.6%;
+        opacity:0.4;
+        width: 90%;
+        
+        overflow: hidden;
+    }
+    #root > .images > .img > .path img{
+        width: 0%;
+    }
+    #root > #footer{
+        margin-top: -10rem;
+    }
+    #root > .images > .content > .buttons button{
+            margin-right: 2rem;
+            width: 100%;
+        }
+}
+
+@media (max-width: 1440px){
+    #root >.center > .center-content > .path-box img{
+        position: absolute;
+        left: -45%;
+        top: 80%;
+    }
+}
