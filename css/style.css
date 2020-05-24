@@ -14,7 +14,6 @@ p{
     font-weight: normal;
 }
 
-
 /* HEADER - SECTION */
 .header-links li{
     list-style: none;
@@ -27,6 +26,10 @@ p{
 .header-links a{
     color: #505f98;
     text-decoration: none;
+}
+.header-links a:hover{
+    border-bottom: 2px solid rgb(73, 92, 177);
+    border-radius: .05rem;
 }
 .header-container{
     margin: 0 auto;
@@ -71,6 +74,8 @@ height:26px;
 width: 160px;
 float: right;;
 }
+
+/* SECTION-A STYLING */
 
 .images{
     display: flex;
@@ -123,6 +128,8 @@ line-height: 30px;
     color: #fff;
 }
 
+/* SECTION-B STYLING */
+
 .container-content{
     display: flex;
     margin-top: 5rem;
@@ -169,6 +176,8 @@ color: #6f7cb2;
     color: #5d6970;
 }
 
+
+/* SECTION C - SECTION E STYLING */
 .containing{
     display: flex;
     margin: 5rem 0;
@@ -197,21 +206,22 @@ line-height: 26px;
 color: #6f7cb2;
 }
 
+/* CENTER - CONTENT STYLING */
 .center{
     display: flex;
     justify-content: center;
-    background: url('./img/Rectangle.png');
+    background: url('../img/Rectangle.png');
     background-position:center;
     padding:6em;
     margin-top: 3rem;
 }
-
+ 
 .center img{
     position: absolute;
     z-index: -10;
     clear: both;
     margin-top: -10.5rem;
-}
+} 
 
 .center-content {
    width: 70%;
@@ -327,6 +337,10 @@ width: 160px;;
     line-height: 24px;
     display: inline;
     
+}
+.footer-list a:hover{
+    border-bottom: 2px solid rgb(73, 92, 177);
+    border-radius: .05rem;
 }
 .footer-list ul{
     margin-left: -38px;

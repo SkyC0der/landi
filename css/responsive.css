@@ -1,13 +1,5 @@
 
 @media (max-width: 800px){
-
-#root > .header-container{
-    display: grid;
-    overflow: none;
-    grid-row: 1fr 1fr 1fr ;
-
-    grid-template-columns: 1fr 1fr 1fr;  
-}
 .header-links > ul {
     display: flex;
     padding: 2rem 0;
@@ -77,5 +69,76 @@
         position: absolute;
         left: -45%;
         top: 80%;
+    }
+}
+
+
+/* FOR PHONE SCREENSAND SMALL TABLETS */
+@media (max-width:600px){
+    #root{
+        display: flex;
+        flex-direction: column;
+    }
+    #root > .container > .header-links li {
+        padding: 0;
+    }
+    #root > .container > .heading h1 {
+        margin: 0;
+    }
+    #root > #section-a{
+        display: flex;
+        flex-direction: column;
+    }
+    #root > #section-a >.content{
+        margin-left: 2rem;
+        width: 100%;
+    }
+    #root > #section-a > #section-a-image{
+        width: 50%;
+    }
+    #root > .header-container{
+        width: 90%;
+    }
+    #root > #section-b{
+        flex-direction: column;
+    }
+    #root > #section-b > .content-left{
+        width: 100%;
+        margin: 0;
+    }
+    #root > .footer{
+        width: 100%;
+    }
+    #root > img{
+        width: 50%;
+    }
+    #root > .containing{
+        flex-direction: column;
+        margin-left: 1.5rem;
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+    }
+    #root > .containing > .left + .right{
+        width: 100%;
+    }
+    #root > .containing > .left img{
+        width: 200px;
+        height: 200px;
+    }
+    #root > #section-f{
+        padding: 0%;
+        background: none;
+    }
+    #root >#section-f > .center-content{
+        padding: 2em;
+        margin-left: .1rem;
+        background-color: #e7ecff;
+        margin-top: 0;
+    }
+    #root button{
+        width: 100%;
+    }
+    #root >.center > .center-content > .path-box img{
+        width: 50%;
     }
 }
