@@ -363,3 +363,8 @@ width: 160px;;
     margin-right:-32px ;
     margin-top: 16px;
 }
+span.fas.fa-bars {
+    display: none;
+    visibility: hidden;
+    
+}

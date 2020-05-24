@@ -80,6 +80,8 @@
         flex-direction: column;
     }
     #root > .container > .header-links li {
+        visibility: hidden;
+        display: none;
         padding: 0;
     }
     #root > .container > .heading h1 {
@@ -91,6 +93,10 @@
     }
     #root > #section-a >.content{
         margin-left: 2rem;
+        width: 100%;
+        padding: 0 0 100px 0;
+    }
+    #root > #section-a >.content > .buttons {
         width: 100%;
     }
     #root > #section-a > #section-a-image{
@@ -129,6 +135,11 @@
         padding: 0%;
         background: none;
     }
+    .header-container > span.fas.fa-bars{
+        visibility: visible;
+        font-size: 1.4rem;
+        display: flex;
+    }
     #root >#section-f > .center-content{
         padding: 2em;
         margin-left: .1rem;
@@ -140,5 +151,8 @@
     }
     #root >.center > .center-content > .path-box img{
         width: 50%;
+    }
+    #root > .footer > .footer-list li{
+        padding-right: 6px;
     }
 }
