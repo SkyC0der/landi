@@ -94,7 +94,8 @@
     #root > #section-a >.content{
         margin-left: 2rem;
         width: 100%;
-        padding: 0 0 100px 0;
+        padding: 20px 0;
+        order: 2;
     }
     #root > #section-a >.content > .buttons {
         width: 100%;
@@ -111,6 +112,7 @@
     #root > #section-b > .content-left{
         width: 100%;
         margin: 0;
+        order: 1;
     }
     #root > .footer{
         width: 100%;
@@ -120,16 +122,13 @@
     }
     #root > .containing{
         flex-direction: column;
-        margin-left: 1.5rem;
-        margin-bottom: 0rem;
-        margin-top: 1rem;
-    }
+        margin: 1.5rem;
+        padding: 1.5rem;}
     #root > .containing > .left + .right{
         width: 100%;
     }
     #root > .containing > .left img{
-        width: 200px;
-        height: 200px;
+        width: 110%
     }
     #root > #section-f{
         padding: 0%;
